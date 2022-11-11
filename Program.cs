@@ -28,7 +28,7 @@ namespace singly_linked_list
             nm = Console.ReadLine();
             Node newnode = new Node();
             newnode.rollNumber = nim;
-            newnode.name = nm; 
+            newnode.name = nm;
             //if the node to be inserted is the first node
             if (START == null || nim <= START.rollNumber)
             {
@@ -109,6 +109,12 @@ namespace singly_linked_list
             else
                 return (true);
         }
+        public bool listEmpty()
+        {
+            if (START == null)
+                return true;
+            else
+                return false;
+        }
     }
-    
 }
