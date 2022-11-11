@@ -142,6 +142,15 @@ namespace singly_linked_list
                             {
                                 obj.addNote();
                             }
+                            break;
+                        case '2':
+                            {
+                                if (obj.listEmpty())
+                                {
+                                    Console.WriteLine("\nList is Empty");
+                                    break;
+                                }
+                            }
                     }
                 }
             }
