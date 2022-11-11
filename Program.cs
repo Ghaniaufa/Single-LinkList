@@ -159,6 +159,11 @@ namespace singly_linked_list
                                     Console.WriteLine("Record with roll number " + nim + " Deleted");
                             }
                             break;
+                        case '3':
+                            {
+                                obj.traverse
+                            }
+                            break;
                     }
                 }
             }
